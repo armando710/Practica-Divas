@@ -1,0 +1,67 @@
+
+section{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#aretha{
+    background-image: url("../img/aretha.jpg");
+}
+#aretha:hover{
+    transition: 1s;
+    height: 150%;
+    top: -50%;
+}
+
+#diana{
+    left: 25%;
+    background-image: url("../img/diana.jpg");
+}
+#diana:hover{
+    transition: 1s;
+    height: 150%;
+    top: -50%;
+}
+#dionne{
+    left: 50%;
+    background-image: url("../img/dionne.jpg");
+}
+#dionne:hover{
+    transition: 1s;
+    height: 150%;
+    top: -50%;
+}
+#etta{
+    left: 75%;
+    background-image: url("../img/etta.jpg");
+}
+#etta:hover{
+    transition: 1s;
+    height: 150%;
+    top: -50%;
+}
+
+div{
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.c1{
+    background-color: rgba(255,0,255,.3);
+}
+.c2{
+    background-color: rgba(0,0,255,.3);
+}
+.c3{
+    background-color: rgba(255,0,153,.3);
+}
+.c4{
+    background-color: rgba(0,153,255,.3);
+}

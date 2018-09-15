@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,700i,800');
+
+body{
+    background-color: #f7f7f7;
+}
+
+header{
+    width: 100%;
+    max-width: 750px;
+    color: black;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+}
+
+header figure img{
+    width: 20%;
+    background-size: cover;
+}
+
+header div{
+    font-family: 'Lobster', cursive;
+    float: left;
+    width: 70%;
+}
+header div h1{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header div h2{
+    font-size: 20px;
+}
+
+aside{
+    font-family: 'open sans', cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    max-width: 750px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: gray;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'open sans', cursive;
+    margin: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+nav a:hover{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+main{
+    width: 100%;
+    max-width: 750px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin: auto;
+}
+
+em{
+    color: #507297;
+}
+
+main p strong em:first-child{
+    font-size: 100px;
+    display: inline-block;
+    float: left;
+    font-family: 'Lobster', cursive;
+    color: black;
+    margin-right: 30px;
+}
